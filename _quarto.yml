@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "UCSB AISES"
+  favicon: images/favicon.png
+  search: false
+  navbar:
+    title: false
+    logo: images/logo.png
+    pinned: true
+    right:
+      - text: About
+        href: index.qmd
+      - text: Opportunities
+        href: opportunities.qmd
+format:
+  html:
+    theme:
+      - styles.scss
+    mainfont: IBM Plex Sans
+    page-layout: full
+    toc: false
+    link-external-newwindow: true
+    title-block-banner: true
