@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "UCSB AISES"
+  title: "AISES UCSB"
   favicon: images/favicon.png
   search: false
   navbar:
@@ -12,14 +12,11 @@ website:
     right:
       - text: About
         href: index.qmd
-      - text: Opportunities
-        href: opportunities.qmd
 format:
   html:
     theme:
       - styles.scss
     mainfont: IBM Plex Sans
     page-layout: full
-    toc: false
     link-external-newwindow: true
-    title-block-banner: true
+    toc: false

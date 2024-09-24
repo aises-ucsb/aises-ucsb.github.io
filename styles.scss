@@ -4,21 +4,20 @@
 
 $ibm-plex-sans: 'IBM Plex Sans', sans-serif;
 
-$copper: #bb4d00;
 $white: #FFFFFF;
-$off-white: #FAF9F6;
+$off-white: #F7F7F7;
 $gray: #ADADAD;
 $dark-gray: #373A3E;
+$cerulean: #457B9D;
 
-$navbar-bg: $copper;
+$navbar-bg: $off-white;
 $navbar-fg: $off-white;
-$navbar-hl: $off-white;
-$link-color: $gray;
+$navbar-hl: $dark-gray;
+$link-color: $cerulean;
 $body-bg: $white;
 $body-color: $dark-gray;
 
 /*-- scss:rules --*/
-
 h1, h2, h3, h4 {
   font-family: $ibm-plex-sans;
   color: $dark-gray;
@@ -31,4 +30,12 @@ h2 {
 
 .navbar-logo {
   max-height: 3.15rem;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.gray-text {
+  color: $gray;
 }

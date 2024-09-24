@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>UCSB AISES - AISES at UC Santa Barbara</title>
+<title>AISES UCSB</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,7 +57,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="./images/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -74,53 +74,63 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./opportunities.html"> 
-<span class="menu-text">Opportunities</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">AISES at UC Santa Barbara</h1>
-            <p class="subtitle lead">Advancing Indigenous Peoples in Science, Technology, Engineering &amp; Math</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AISES UCSB</h1>
+<p class="subtitle lead">Advancing Indigenous Peoples in Science, Technology, Engineering &amp; Math</p>
+</div>
 
 
 
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
 
 
-<section id="our-mission" class="level2">
-<h2 class="anchored" data-anchor-id="our-mission">Our Mission</h2>
-<p>Under Construction! Come Back Soon!</p>
-</section>
-<section id="our-goals" class="level2">
-<h2 class="anchored" data-anchor-id="our-goals">Our Goals</h2>
-<p>Under Construction! Come Back Soon!</p>
+</header>
+
+
+<p>The American Indian Science and Engineering Society (AISES) at UCSB is affiliated with the greater <a href="https://aises.org/">American Indian Science and Engineering Society</a> and exists to support current UCSB Indigenous students interested in the science and engineering fields.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/banner.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="gray-text center-text">
+<p>Map of Chumash Villages from <a href="https://landsat.gsfc.nasa.gov/apps/YourNameInLandsat-main/index.html" target="_blank">Wikipedia Commons</a></p>
+</div>
+<section id="our-purpose" class="level2">
+<h2 class="anchored" data-anchor-id="our-purpose">Our Purpose</h2>
+<ul>
+<li>To stimulate and develop Indigenous student interest in science and engineering</li>
+<li>To provide academic assistance and financial support through scholarships</li>
+<li>To strive in promoting Indigenous participation at all levels of responsibility in science and engineering</li>
+<li>To endeavor in the advancement of Indigenous professional scientists and engineers</li>
+<li>To build a sense of community and pride in our heritage</li>
+</ul>
 
 
 </section>
@@ -161,18 +171,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -204,7 +203,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -212,7 +233,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

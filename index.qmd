@@ -1,10 +1,27 @@
 ---
-title: "AISES at UC Santa Barbara"
+title: "AISES UCSB"
 subtitle: "Advancing Indigenous Peoples in Science, Technology, Engineering & Math"
 ---
 
-## Our Mission
-Under Construction! Come Back Soon!
+The American Indian Science and Engineering Society (AISES) at UCSB is affiliated with the greater [American Indian Science and Engineering Society](https://aises.org/) and exists to support current UCSB Indigenous students interested in the science and engineering fields.
 
-## Our Goals
-Under Construction! Come Back Soon!
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "100%" 
+#| fig-alt: ""
+knitr::include_graphics("images/banner.png")
+```
+
+::: {.gray-text .center-text}
+Map of Chumash Villages from [Wikipedia Commons](https://landsat.gsfc.nasa.gov/apps/YourNameInLandsat-main/index.html){target="_blank"}
+:::
+
+## Our Purpose
+
+- To stimulate and develop Indigenous student interest in science and engineering
+- To provide academic assistance and financial support through scholarships
+- To strive in promoting Indigenous participation at all levels of responsibility in science and engineering
+- To endeavor in the advancement of Indigenous professional scientists and engineers
+- To build a sense of community and pride in our heritage
