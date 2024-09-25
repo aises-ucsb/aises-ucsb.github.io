@@ -8,10 +8,16 @@ website:
   navbar:
     title: false
     logo: images/logo.png
-    pinned: true
+    logo-href: index.qmd
     right:
       - text: About
-        href: index.qmd
+        menu:
+          - text: Our Team
+            href: about.qmd
+          - text: Land Acknowledgment
+            href: land.qmd
+  page-footer:
+    right: This website is built with [{{< fa brands github title="the github octocat logo" >}}](https://github.com/aises-ucsb/aises-ucsb.github.io), [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html) and [Quarto](https://samanthacsik.github.io/posts/2022-06-22-hello-quarto/)
 format:
   html:
     theme:
