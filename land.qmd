@@ -1,0 +1,22 @@
+---
+pagetitle: "AISES UCSB - Land Acknowledgment"
+---
+
+## Land Acknowledgment
+
+The University of California system was founded upon the exclusions and erasures of many Indigenous peoples, including those on whose lands UC Santa Barbara occupies, the villages and unceded lands and waters of the Chumash peoples. Many of the projects and research conducted by this university are within the traditional territory of the Chumash peoples, and/or affect other Indigenous peoples. We ask you to join us in acknowledging the Chumash peoples, their Elders, both past and present, as well as their future generations. Take a moment to [listen to this land acknowledgment](https://vimeo.com/753039083/ea0f89be25) and [learn about Chumash efforts to advocate for and and restore ancestral Chumash lands, waters, and food systems](https://www.wishtoyo.org/).
+
+<br>
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "100%" 
+#| fig-alt: ""
+knitr::include_graphics("images/banner.png")
+```
+
+::: {.gray-text .center-text}
+Map of Chumash Villages from Wikipedia Commons
+:::

@@ -1,0 +1,92 @@
+---
+pagetitle: "AISES UCSB - About"
+---
+
+## Our Team
+
+We are a group of graduate students working horizontally to host professional development, social, and outreach events, oftentimes with [UCSB's SACNAS Graduate Chapter](https://www.ucsbsacnasgrad.org/). We also form part of the American Indian & Indigenous Graduate Student Alliance.
+
+### Current Team
+
+<br>
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-3}
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "50%" 
+knitr::include_graphics("images/tbd.png")
+```
+
+::: {.center-text}
+**Rae Yee**
+<br>
+Interdisciplinary Program in Quantitative Biosciences
+:::
+:::
+
+
+::: {.g-col-12 .g-col-md-3}
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "50%" 
+knitr::include_graphics("images/tbd.png")
+```
+
+::: {.center-text}
+**Alessandra Vidal Meza**
+<br>
+Bren School of Environmental Science & Management
+:::
+:::
+
+
+::: {.g-col-12 .g-col-md-3}
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "50%" 
+knitr::include_graphics("images/tbd.png")
+```
+
+::: {.center-text}
+**Victoria Diaz**
+<br>
+Chemical Engineering
+:::
+:::
+
+
+::: {.g-col-12 .g-col-md-3}
+
+```{r}
+#| eval: true 
+#| echo: false
+#| fig-align: "center"
+#| out-width: "50%" 
+knitr::include_graphics("images/tbd.png")
+```
+
+::: {.center-text}
+**Reina Gomez**
+<br>
+Materials
+:::
+:::
+
+:::
+
+### Past Team
+
+- Phoebe Racine, Bren School of Environmental Science & Management
+- Nākoa Farrant, Bren School of Environmental Science & Management
+ 
